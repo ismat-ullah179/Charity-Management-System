@@ -1,0 +1,64 @@
+.feature_part{
+	font-family: 'Teko', sans-serif;
+}
+/* change navigation/menu color */
+.navbar #mymenu .custom-nav .nav-item a{
+	color:white;
+	/*float: right;*/
+}
+.navbar #mymenu .custom-nav .nav-item a:hover{
+	color: yellow;
+	/*color: white;*/
+	
+}
+.navbar #mymenu .custom-nav .nav-item a.active{
+	color:yellow;
+	/*color: white;*/
+	
+}
+ 
+/* MAKE HEADER IMAGE RESPONSIVE */
+.back-image{
+	background-size:cover;
+	min-height: 90vh;
+	background-position:top center;
+	background-repeat: no-repeat;
+	border-radius:0px;
+	margin-top:65px;
+}
+
+/* MARGIN FOR WELLCOME TO Charity */
+
+/* media query */
+@media only screen and (max-width:600px) {
+.myclass{
+	margin-top: 350px;
+	text-align: center;
+}
+.jumbotron {
+background: #358CCE;
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+a{
+	color:black;
+}
+a.active{
+	color:red;
+	background-color:blue;
+}
+a:hover{
+	color:blue;
+}
+
+
+
+
